@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+  width: 10dvw;
+  height: 3dvw;
+  margin: 1dvw 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2dvw;
+}
+
+.nav-links {
+  width: 35dvw;
+  display: flex;
+  gap: 1.5dvw;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.nav-links li {
+  transition: all 0.3s ease-out;
+}
+
+.nav-links li:hover {
+  scale: 1.1;
+}
