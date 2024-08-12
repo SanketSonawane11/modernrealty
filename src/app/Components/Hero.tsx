@@ -9,9 +9,9 @@ function Hero() {
   const flipping = ["Assistant", "Advisor", "Expert", "Strategist", "Mentor"];
   return (
     <div className=" w-full h-[80vh] py-8 md:px-12 flex flex-col-reverse md:flex-row items-center justify-center">
-      <div className="w-full max-h-[60%] md:min-w-[50%] flex justify-center flex-col p-3">
+      <div className="w-full max-h-fit md:min-w-[60%] flex justify-between flex-col p-3">
         <h1 className="text-[2.8rem] text-center md:text-start font-extrabold ">
-          Your Personal Real Estate{" "}
+          Your Personal Real Estate <br />
           <span className="text-blue-300">
             <FlipWords words={flipping} />
           </span>
@@ -31,7 +31,7 @@ function Hero() {
           </button>
         </a>
       </div>
-      <div className="w-full hidden md:block max-h-[40%] md:max-w-[50%] py-5 px-8 md:h-full items-center justify-center">
+      <div className="w-full hidden md:flex max-h-[40%] md:max-w-[50%] py-5 px-8 md:h-full items-center justify-center">
         <img src="/Logo.png" />
       </div>
     </div>
