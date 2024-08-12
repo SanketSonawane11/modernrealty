@@ -44,7 +44,7 @@ function Accordion() {
   ];
 
   return (
-    <div className="w-full px-10 py-8 flex items-center justify-center flex-col">
+    <div id="faq" className="w-full px-10 py-8 flex items-center justify-center flex-col">
       <div className="w-fit text-[2rem] md:text-[2.5rem] mb-8">
         <h2>Frequently Asked Question's</h2>
       </div>

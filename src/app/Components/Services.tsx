@@ -4,7 +4,7 @@ import content from "../Data/Services";
 
 function Services() {
   return (
-    <div className="w-full h-fit py-9 px-8 md:px-12 flex items-center justify-center">
+    <div id="services" className="w-full h-fit py-9 px-8 md:px-12 flex items-center justify-center">
       <div className="w-full flex items-center flex-col justify-center">
         <h2 className="text-[2rem] md:text-[2.5rem] text-white leading-10 text-center font-semibold">
           A Buyer Realtor Replacement

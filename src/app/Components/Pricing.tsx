@@ -81,7 +81,7 @@ const PricingCard = ({ plan }: any) => (
 );
 
 const Pricing = () => (
-  <div className="container mx-auto w-full flex items-center justify-center px-10">
+  <div id="pricing" className="container mx-auto w-full flex items-center justify-center px-10">
     <div>
       <h2 className="text-3xl font-bold tracking-tight text-center mt-12 sm:text-5xl">
         Pricing

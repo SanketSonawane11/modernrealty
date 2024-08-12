@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Services from "./Components/Services";
 import Faq from "./Components/Faq";
 import Pricing from "./Components/Pricing";
+import Footer from "./Components/Footer";
 
 function page() {
   return (
@@ -13,6 +14,7 @@ function page() {
       <Services />
       <Faq />
       <Pricing />
+      <Footer />
     </div>
   );
 }
