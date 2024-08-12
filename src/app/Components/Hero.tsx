@@ -8,8 +8,8 @@ function Hero() {
 
   const flipping = ["Assistant", "Advisor", "Expert", "Strategist", "Mentor"];
   return (
-    <div className="w-full h-[80vh] py-8 px-10 flex flex-col-reverse md:flex-row items-center justify-center">
-      <div className="w-full max-h-[60%] md:max-w-[50%] md:min-w-[60%] flex justify-center flex-col p-3">
+    <div className=" w-full h-[80vh] py-8 md:px-12 flex flex-col-reverse md:flex-row items-center justify-center">
+      <div className="w-full max-h-[60%] md:min-w-[50%] flex justify-center flex-col p-3">
         <h1 className="text-[2.8rem] text-center md:text-start font-extrabold ">
           Your Personal Real Estate{" "}
           <span className="text-blue-300">

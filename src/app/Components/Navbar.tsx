@@ -20,7 +20,7 @@ function Navbar() {
   };
   return (
     <div className="w-full max-h-[6rem] md:max-h-[7rem] flex items-center justify-center">
-      <div className="flex py-8 justify-between px-4 shadow-md w-[90%]">
+      <div className="flex py-8 justify-between md:px-4 shadow-md w-[98%]">
         <div className="text-2xl font-extrabold text-center md:text-left md:text-4xl text-white">
           <img src="/Logo.png" />
         </div>
