@@ -51,7 +51,7 @@ function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6 mb-8">
               <a
-                href="https://www.modernrealty.io/homes"
+                href="https://www.modernrealty.io"
                 className="w-full sm:w-auto"
               >
                 <button className="w-full sm:w-auto p-[3px] relative transition-all ease-out duration-200 active:scale-95 group">
